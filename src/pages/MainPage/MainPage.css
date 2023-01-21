@@ -1,0 +1,19 @@
+.main_page_content {
+    padding: 42px calc(50% - 500px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_page_main_section {
+    padding-left: 40px;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.main_page_search_box {
+    margin-bottom: 35px;
+}
+
+.main_page_favorites {
+    width: 35%;   
+}

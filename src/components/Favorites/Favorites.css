@@ -1,0 +1,50 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 8, 7);
+    padding: 30px 20px;
+}
+
+.favorites_name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    margin-bottom: 24px;
+}
+
+.favorites_list {
+    margin-bottom: 24px;
+}
+.favorites_list li{
+    margin-bottom: 10px;
+}
+.favorites_save {
+    border: none;
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.favorites_save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
+.hidden{
+    display: none;
+}
+
+.favorites_lists{
+    display: flex;
+    justify-content: space-between;
+}
+.delete_button{
+    border: none;
+}
+.delete_button:hover{
+    background-color: grey;
+    opacity: 0.7;
+}
